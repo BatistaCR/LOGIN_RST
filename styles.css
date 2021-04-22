@@ -1,0 +1,36 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background: url(background.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 360px;
+    height: 420px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, .7);
+}
+
+.image{
+    width: 90px;
+    height: 90px;
+    border-radius: 60%;
+    overflow: hidden;
+    position: absolute;
+    top: calc(-100px/2);
+    left: calc(50% -50px);
+}
+
+h2{
+    margin: 0;
+    padding: 0 0 20px;
+    color: ;
+    text-align: center;
+}
