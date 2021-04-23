@@ -12,25 +12,56 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 360px;
-    height: 420px;
     padding: 80px 40px;
     box-sizing: border-box;
     background: rgba(0, 0, 0, .7);
 }
 
 .image{
-    width: 90px;
+    display: block;
     height: 90px;
-    border-radius: 60%;
-    overflow: hidden;
-    position: absolute;
-    top: calc(-100px/2);
-    left: calc(50% -50px);
+    margin: auto;
 }
 
 h2{
     margin: 0;
     padding: 0 0 20px;
-    color: ;
+    color: #D6AB18;
     text-align: center;
+}
+
+.login input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.usuario, .password{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+
+}
+
+.submit{
+ outline: none;
+    height: 40px;
+    content: #fff;
+    font-size: 16px;
+    background: #D6AB18;
+    cursor: pointer;
+    border-radius: 17px;
+
+    }
+
+.submit:hover{
+    background: #F7D667;
+    color: 262626;
+}
+
+p{
+    color: white;
 }
